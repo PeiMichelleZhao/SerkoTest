@@ -12,7 +12,7 @@ using SerkoTest.Services;
 
 namespace SerkoTest.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("v1/[controller]")]
     [ApiController]
     public class ExtractDataController : ControllerBase
     {
